@@ -18,7 +18,7 @@ model =model.to(device)
 
 
 # Load the tokenizer and model from the saved directory
-model_name ="D:\Work\llm_bert_streamlt\saved_model"
+model_name ="\saved_model"
 Bert_Tokenizer = BertTokenizer.from_pretrained(model_name)
 Bert_Model = BertForSequenceClassification.from_pretrained(model_name).to(device)
 
