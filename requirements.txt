@@ -3,3 +3,5 @@ plotly==5.18.0
 torch
 torchvision
 torchaudio
+# transformer
+git+https://github.com/huggingface/transformers
